@@ -1,0 +1,103 @@
+.posts {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.post {
+    background-color: #333;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post h2 {
+    font-size: 24px;
+    color: #c999d2;
+    margin-bottom: 10px;
+}
+
+.post p {
+    font-size: 16px;
+    color: #c999d2;
+    margin-bottom: 20px;
+}
+
+.post .editPostButton,
+.post .deletePostButton {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.post .editPostButton {
+    background-color: #4caf50;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.post .editPostButton:hover {
+    background-color: #45a049;
+}
+
+.post .deletePostButton {
+    background-color: #f44336;
+    color: #fff;
+}
+
+.post .deletePostButton:hover {
+    background-color: #e53935;
+}
+
+.commentsContainer {
+    margin-top: 20px;
+}
+
+.commentsContainer h3 {
+    font-size: 20px;
+    color: #c999d2;
+    margin-bottom: 10px;
+}
+
+.commentsContainer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.commentsContainer li {
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.createCommentForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.createCommentForm .commentInput {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.createCommentForm button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #c999d2;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.createCommentForm button:hover {
+    background-color: #a377b0;
+}
