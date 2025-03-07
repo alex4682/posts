@@ -34,6 +34,15 @@
     transition: background-color 0.3s ease;
 }
 
+.post .editPostButton {
+    background-color: #4caf50;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.post .editPostButton:hover {
+    background-color: #45a049;
+}
 
 .post .deletePostButton {
     background-color: #f44336;
@@ -94,9 +103,26 @@
     background-color: #a377b0;
 }
 
-#postsContainer{
+#postsContainer {
     display: flex;
     flex-direction: column;
     gap: 20px;
     padding: 20px;
+}
+
+.load-more-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #c999d2;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 20px auto;
+    display: block;
+}
+
+.load-more-btn:hover {
+    background-color: #a377b0;
 }
