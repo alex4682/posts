@@ -100,19 +100,10 @@ body {
   transition: background-color 0.3s ease;
 }
 
-.post .editPostButton {
-  background-color: #4caf50;
-  color: #fff;
-  margin-right: 10px;
-}
-
-.post .editPostButton:hover {
-  background-color: #45a049;
-}
-
 .post .deletePostButton {
   background-color: #f44336;
   color: #fff;
+  width: 200px;
 }
 
 .post .deletePostButton:hover {
@@ -166,6 +157,13 @@ body {
 
 .createCommentForm button:hover {
   background-color: #a377b0;
+}
+
+#postsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
 }
 
 .footer {

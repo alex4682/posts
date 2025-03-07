@@ -1,20 +1,19 @@
 {
-    "posts": [
+  "posts": [
+    {
+      "id": "287b",
+      "title": "Hello World!",
+      "text": "this is example post",
+      "comments": [
         {
-            "id": "1",
-            "title": "Example",
-            "text": "Example",
-            "comments": [
-                {
-                    "id": "1",
-                    "text": "This is a comment."
-                },
-                {
-                    "id": "2",
-                    "text": "This is another comment."
-                }
-            ]
+          "id": "1",
+          "text": "WOW!"
+        },
+        {
+          "id": "2",
+          "text": "This is comment"
         }
-    ]
+      ]
+    }
+  ]
 }
-
